@@ -1,7 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import PostList from './basecomponent/PostList'
+import PostList from './basecomponent/PostList';
+
+import GetNoParamUser from './basecomponent/GetNoParamUser';
 
 // class Square extends React.Component {
 
@@ -114,6 +116,7 @@ class Game extends React.Component {
           <div>{status}</div>
           <div><PostList/></div>
           <ol>{/* TODO */}</ol>
+          <div><GetNoParamUser></GetNoParamUser></div>
         </div>
       </div>
     );

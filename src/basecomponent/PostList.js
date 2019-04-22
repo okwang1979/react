@@ -21,6 +21,7 @@ class PostList extends React.Component{
     }
     openMenu(){
        // alert('click');
+       
     }
 
     handVote(id){
